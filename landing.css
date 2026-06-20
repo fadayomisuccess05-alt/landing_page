@@ -17,13 +17,16 @@ ul {
   display: flex;
   gap: 2.5rem;
   margin-left: 220px;
+  color: #b1a7a7;
 }
 ul > li:last-child {
   margin-left: 210px;
-  background-color: aqua;
+  /* background-color: aqua; */
+  background-image: linear-gradient( hsl(136, 64%, 51%), hsl(192, 69%, 51%) );
   padding-inline: 30px;
   padding-block: 10px;
   border-radius: 20px;
+  color: #fff;
 }
 ul > li:not(:last-child) {
   /* margin-top: 12px; */
@@ -44,10 +47,11 @@ ul > li:not(:last-child) {
 }
 .itemA1 p:last-child {
   display: inline-block;
-  background-color: rgb(151, 193, 193);
+  background-image: linear-gradient( hsl(136, 64%, 51%), hsl(192, 69%, 51%) );
   padding-inline: 30px;
   padding-block: 10px;
   border-radius: 20px;
+  color: #fff;
 }
 .itemA img {
   /* transform: translate(130px, -160px); */
@@ -180,12 +184,13 @@ aside img {
 }
 .right span {
   display: inline-block;
-  background-color: aqua;
+    background-image: linear-gradient( hsl(136, 64%, 51%), hsl(192, 69%, 51%) );
   padding-inline: 30px;
   padding-block: 10px;
   border-radius: 20px;
   font-size: 0.85em;
   margin-left: 55px;
+  color: #fff;
 }
 .right :nth-child(2) {
   font-size: 0.8em;
